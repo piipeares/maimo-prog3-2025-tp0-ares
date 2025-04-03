@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+body {
+    background-color: #f8f5f2;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #8d6e63;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo_container img {
+    width: 80px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+h1 {
+    color: #5d4037;
+}
+.hero {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/assets/imgs/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.recetas {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.recetas h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #5d4037;
+}
+
+.recetas_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.receta img {
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid #8d6e63; 
+}
+
+.receta h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #5d4037;
+}
+
+.receta {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.btn-receta {
+    display: inline-block;
+    margin-top: 15px; 
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #5d4037;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-receta:hover {
+    background-color: #fafd3f;
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #8d6e63;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.single_content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.single_content li {
+    background: #ffefc3;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.single_content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.single_content {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
